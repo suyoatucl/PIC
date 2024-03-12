@@ -5,7 +5,7 @@ GS.dataCache['B5EB90613FD27245BC7A8EF5B9C7EB66C47C'] = {
     "items": {
         "name": "Add Choice",
         "type": "data_record",
-        "order": 2,
+        "order": 1,
         "category": "commonEvents",
         "id": "B5EB90613FD27245BC7A8EF5B9C7EB66C47C",
         "isFolder": false,

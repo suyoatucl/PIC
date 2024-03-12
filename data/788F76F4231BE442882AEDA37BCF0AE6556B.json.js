@@ -7,7 +7,7 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
         "type": "vn.scene",
         "parentId": "0680E2763533F740B54A6C139E537CF59C20",
         "chapterUid": "0680E2763533F740B54A6C139E537CF59C20",
-        "order": 2,
+        "order": 3,
         "livePreviewDisabled": false,
         "localizableStrings": {},
         "numberVariables": [
@@ -1726,7 +1726,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2164,7 +2166,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2239,7 +2243,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2314,7 +2320,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2389,7 +2397,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2464,7 +2474,9 @@ GS.dataCache['788F76F4231BE442882AEDA37BCF0AE6556B'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
