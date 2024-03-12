@@ -5,7 +5,7 @@ GS.dataCache['3C67A3C670B23241C1384BC188355DF2A4C6'] = {
     "items": {
         "name": "Input Text",
         "type": "data_record",
-        "order": 0,
+        "order": 1,
         "category": "commonEvents",
         "id": "3C67A3C670B23241C1384BC188355DF2A4C6",
         "isFolder": false,
