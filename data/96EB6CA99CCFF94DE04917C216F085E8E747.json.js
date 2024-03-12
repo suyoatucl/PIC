@@ -10,54 +10,6 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
         "order": 0,
         "commands": [
             {
-                "id": "vn.ChangeBackground",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "graphic": {
-                        "name": "cover1",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
-                    },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "54483F9D77E1F44E126A0E27113B7B5404C7"
-            },
-            {
                 "id": "gs.Comment",
                 "params": {
                     "text": "In this scene we make the title screen. We use an image-map to keep it simple as possible. Feel free to use single-images, videos, hotspots, etc. to make it more dynamic.\n\nFor each menu-entry we create a hotspot on the image-map and jump to the appropriate label if the hotspot gets clicked."
@@ -69,15 +21,15 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
             {
                 "id": "vn.UIAccess",
                 "params": {
-                    "saveMenu": 1,
-                    "loadMenu": 1,
-                    "generalMenu": 1,
+                    "saveMenu": 0,
+                    "loadMenu": 0,
+                    "generalMenu": 0,
                     "backlog": 1,
                     "fieldFlags": {
                         "saveMenu": 0,
                         "loadMenu": 0,
                         "generalMenu": 0,
-                        "backlog": 0
+                        "backlog": 1
                     }
                 },
                 "indent": 0,
@@ -87,15 +39,15 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                 "id": "gs.ChangeBooleanVariables",
                 "params": {
                     "target": 0,
-                    "targetReferenceDomain": "com.degica.vnm.default",
                     "targetReference": {
-                        "index": 0,
                         "scope": 1,
+                        "index": 0,
                         "domain": "com.degica.vnm.default"
                     },
                     "targetVariable": {
-                        "index": 0,
+                        "name": "In Game",
                         "scope": 1,
+                        "index": 0,
                         "domain": "com.degica.vnm.default"
                     },
                     "targetRangeScope": 0,
@@ -104,19 +56,20 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                     "value": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
-                    }
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default"
                 },
                 "indent": 0,
-                "uid": "CBCD39BE2E901143051B2CA9892A89D129EB"
+                "uid": "239768BF2B0F624C0E2AA6F70BE1ABC0F276"
             },
             {
                 "id": "gs.ShowImageMap",
                 "params": {
-                    "number": 100,
+                    "number": 0,
                     "hotspots": [
                         {
-                            "x": 814,
-                            "y": 75,
+                            "x": 828,
+                            "y": 195,
                             "angle": 0,
                             "zoom": 1,
                             "horizontalFlip": false,
@@ -142,13 +95,13 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                                 "alpha": 160
                             },
                             "size": {
-                                "width": 398,
-                                "height": 94
+                                "width": 267,
+                                "height": 51
                             }
                         },
                         {
-                            "x": 817,
-                            "y": 218,
+                            "x": 830,
+                            "y": 259,
                             "angle": 0,
                             "zoom": 1,
                             "horizontalFlip": false,
@@ -174,13 +127,13 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                                 "alpha": 160
                             },
                             "size": {
-                                "width": 381,
-                                "height": 90
+                                "width": 269,
+                                "height": 61
                             }
                         },
                         {
-                            "x": 816,
-                            "y": 358,
+                            "x": 830,
+                            "y": 333,
                             "angle": 0,
                             "zoom": 1,
                             "horizontalFlip": false,
@@ -206,13 +159,45 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                                 "alpha": 160
                             },
                             "size": {
-                                "width": 383,
-                                "height": 92
+                                "width": 218,
+                                "height": 59
                             }
                         },
                         {
-                            "x": 817,
-                            "y": 495,
+                            "x": 829,
+                            "y": 402,
+                            "angle": 0,
+                            "zoom": 1,
+                            "horizontalFlip": false,
+                            "data": {
+                                "x": 959,
+                                "y": 402,
+                                "width": 242,
+                                "height": 74,
+                                "action": 1,
+                                "label": "cg",
+                                "bindToSwitch": false,
+                                "bindEnabledState": false,
+                                "finish": false,
+                                "zoom": 1,
+                                "angle": 0,
+                                "horizontalFlip": false,
+                                "commonEventId": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54"
+                            },
+                            "color": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0,
+                                "alpha": 160
+                            },
+                            "size": {
+                                "width": 164,
+                                "height": 55
+                            }
+                        },
+                        {
+                            "x": 832,
+                            "y": 477,
                             "angle": 0,
                             "zoom": 1,
                             "horizontalFlip": false,
@@ -238,13 +223,13 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                                 "alpha": 160
                             },
                             "size": {
-                                "width": 382,
-                                "height": 93
+                                "width": 150,
+                                "height": 58
                             }
                         }
                     ],
                     "ground": {
-                        "name": "cover1",
+                        "name": "titlescreen_idle",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -256,7 +241,7 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                         }
                     },
                     "hover": {
-                        "name": "cover2",
+                        "name": "titlescreen_hover",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -297,8 +282,7 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                         "easing.type": 1,
                         "animation.type": 0,
                         "zOrder": 0,
-                        "blendMode": 0,
-                        "origin": 1
+                        "blendMode": 0
                     },
                     "zOrder": 0,
                     "blendMode": 0,
@@ -306,7 +290,7 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                     "numberDomain": "com.degica.vnm.default"
                 },
                 "indent": 0,
-                "expanded": true,
+                "expanded": false,
                 "uid": "64C4FBD88DE0B049104B9F12352D74226EE8"
             },
             {
@@ -349,8 +333,8 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "DD7CE3053FF86145ED696C013BDF64287A00",
-                        "name": "Tutorials"
+                        "uid": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                        "name": "Sample Scene"
                     },
                     "duration": 20,
                     "erasePictures": 1,
@@ -451,6 +435,43 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
             {
                 "id": "gs.Label",
                 "params": {
+                    "name": "cg"
+                },
+                "indent": 0,
+                "uid": "6712E13B7B578441715B71297860B1BD0B50"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "83F3B6066A2EE444DD0AD086BF9D53D4A299",
+                        "name": "CG Gallery"
+                    },
+                    "duration": 20,
+                    "erasePictures": 1,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "savePrevious": 1
+                },
+                "indent": 0,
+                "uid": "63EE6569129FA7480209F4090C49C221AA50",
+                "expanded": true
+            },
+            {
+                "id": "gs.Idle",
+                "params": {},
+                "indent": 0,
+                "uid": "F53EB3594E28A740945BF6B27BB39E04558C"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
                     "name": "quit"
                 },
                 "indent": 0,
@@ -467,9 +488,6 @@ GS.dataCache['96EB6CA99CCFF94DE04917C216F085E8E747'] = {
                     "eraseVideos": 0,
                     "fieldFlags": {
                         "duration": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
