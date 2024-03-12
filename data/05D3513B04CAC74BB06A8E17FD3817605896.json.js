@@ -1,13 +1,14 @@
 GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
     "uid": "05D3513B04CAC74BB06A8E17FD3817605896",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "insights-3",
+        "type": "vn.scene",
         "parentId": "9CBCBDA346000540AA6AFDB602FC4CADCDAD",
-        "localizableStrings": {},
         "chapterUid": "9CBCBDA346000540AA6AFDB602FC4CADCDAD",
+        "order": 6,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "vn.ChangeBackground",
@@ -84,12 +85,12 @@ GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
                                 "width": 1280,
                                 "height": 720,
                                 "action": 1,
-                                "label": "next",
+                                "label": "next3",
                                 "bindToSwitch": false,
                                 "bindEnabledState": false,
                                 "bindValueTo": false,
                                 "finish": false,
-                                "zoom": null,
+                                "zoom": 1,
                                 "angle": 0,
                                 "horizontalFlip": false
                             },
@@ -162,7 +163,7 @@ GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
             {
                 "id": "gs.Label",
                 "params": {
-                    "name": "next"
+                    "name": "next3"
                 },
                 "indent": 0,
                 "uid": "D1F5159A7079014E6A5880C44695B76F7E14"
@@ -171,8 +172,8 @@ GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "11B3C6D2374E434E0C7A4533AE329D1396B5",
-                        "name": "feedback-3"
+                        "uid": "6C7263928035844F957B665538210BB02A8C",
+                        "name": "end-3"
                     },
                     "savePrevious": 1,
                     "duration": 20,
@@ -221,7 +222,6 @@ GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
             }
         ],
         "livePreviewDisabled": false,
-        "order": 6,
         "booleanVariables": [
             {
                 "name": "",
@@ -241,7 +241,6 @@ GS.dataCache['05D3513B04CAC74BB06A8E17FD3817605896'] = {
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ]

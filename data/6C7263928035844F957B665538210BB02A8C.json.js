@@ -1,13 +1,14 @@
 GS.dataCache['6C7263928035844F957B665538210BB02A8C'] = {
     "uid": "6C7263928035844F957B665538210BB02A8C",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "end-3",
+        "type": "vn.scene",
         "parentId": "9CBCBDA346000540AA6AFDB602FC4CADCDAD",
-        "localizableStrings": {},
         "chapterUid": "9CBCBDA346000540AA6AFDB602FC4CADCDAD",
+        "order": 8,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "vn.ChangeBackground",
@@ -89,14 +90,12 @@ GS.dataCache['6C7263928035844F957B665538210BB02A8C'] = {
                 "uid": "4A2F2E585B30D64F0649E0A51078D9A19FDE"
             }
         ],
-        "livePreviewDisabled": false,
-        "order": 8
+        "livePreviewDisabled": false
     },
     "summary": [
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ]

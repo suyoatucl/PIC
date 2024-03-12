@@ -1,13 +1,14 @@
 GS.dataCache['5264BE29919D9648341862F1BD5F2F58CE5A'] = {
     "uid": "5264BE29919D9648341862F1BD5F2F58CE5A",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "insights-1",
+        "type": "vn.scene",
         "parentId": "71B17D98491438442F683CA258B3E75AC374",
-        "localizableStrings": {},
         "chapterUid": "71B17D98491438442F683CA258B3E75AC374",
+        "order": 6,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "vn.ChangeBackground",
@@ -84,12 +85,12 @@ GS.dataCache['5264BE29919D9648341862F1BD5F2F58CE5A'] = {
                                 "width": 1280,
                                 "height": 720,
                                 "action": 1,
-                                "label": "next",
+                                "label": "next1",
                                 "bindToSwitch": false,
                                 "bindEnabledState": false,
                                 "bindValueTo": false,
                                 "finish": false,
-                                "zoom": null,
+                                "zoom": 1,
                                 "angle": 0,
                                 "horizontalFlip": false
                             },
@@ -162,7 +163,7 @@ GS.dataCache['5264BE29919D9648341862F1BD5F2F58CE5A'] = {
             {
                 "id": "gs.Label",
                 "params": {
-                    "name": "next"
+                    "name": "next1"
                 },
                 "indent": 0,
                 "uid": "D1F5159A7079014E6A5880C44695B76F7E14"
@@ -171,8 +172,8 @@ GS.dataCache['5264BE29919D9648341862F1BD5F2F58CE5A'] = {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "0700861566A3054DA93A9DE6F6485125EA85",
-                        "name": "feedback-1"
+                        "uid": "6575A4BC55B2384B3B5974F50819DA602027",
+                        "name": "end-1"
                     },
                     "savePrevious": 1,
                     "duration": 20,
@@ -221,13 +222,25 @@ GS.dataCache['5264BE29919D9648341862F1BD5F2F58CE5A'] = {
             }
         ],
         "livePreviewDisabled": false,
-        "order": 6
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
     },
     "summary": [
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ]

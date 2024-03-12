@@ -7,7 +7,7 @@ GS.dataCache['57784B4E9A23044DDE6AF7D8C737BB9FF2FE'] = {
         "type": "vn.scene",
         "parentId": "49DC3EE6267197419859C9E4D23776294B50",
         "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
-        "order": 7,
+        "order": 6,
         "localizableStrings": {},
         "commands": [
             {
@@ -75,22 +75,22 @@ GS.dataCache['57784B4E9A23044DDE6AF7D8C737BB9FF2FE'] = {
                     "hotspots": [
                         {
                             "x": 0,
-                            "y": 0,
+                            "y": 1,
                             "angle": 0,
                             "zoom": 1,
                             "horizontalFlip": false,
                             "data": {
                                 "x": 0,
-                                "y": 0,
+                                "y": 1,
                                 "width": 1280,
                                 "height": 720,
                                 "action": 1,
-                                "label": "next",
+                                "label": "next2",
                                 "bindToSwitch": false,
                                 "bindEnabledState": false,
                                 "bindValueTo": false,
                                 "finish": false,
-                                "zoom": null,
+                                "zoom": 1,
                                 "angle": 0,
                                 "horizontalFlip": false
                             },
@@ -163,7 +163,7 @@ GS.dataCache['57784B4E9A23044DDE6AF7D8C737BB9FF2FE'] = {
             {
                 "id": "gs.Label",
                 "params": {
-                    "name": "next"
+                    "name": "next2"
                 },
                 "indent": 0,
                 "uid": "D1F5159A7079014E6A5880C44695B76F7E14"
@@ -172,8 +172,8 @@ GS.dataCache['57784B4E9A23044DDE6AF7D8C737BB9FF2FE'] = {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "605313993527A14CC34BE868BD48502F22DD",
-                        "name": "feedback-2"
+                        "uid": "7CC8672621729744F08B6AE3A82C5C2ABE0D",
+                        "name": "end-2"
                     },
                     "savePrevious": 1,
                     "duration": 20,
