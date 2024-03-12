@@ -14,7 +14,7 @@ GS.dataCache['D57FE083K6CB3A442ASA89FE801CDE46C44A'] = {
             "name": "Metis",
             "index": "D57FE083K6CB3A442ASA89FE801CDE46C44A",
             "graphic": {
-                "name": "Metis_CG",
+                "name": "微信图片_20240306165832",
                 "hue": 0,
                 "opacity": 255,
                 "blending": 0,
@@ -25,7 +25,7 @@ GS.dataCache['D57FE083K6CB3A442ASA89FE801CDE46C44A'] = {
                 }
             },
             "thumb": {
-                "name": "Metis_CG_Thumb",
+                "name": "微信图片_20240306165832",
                 "hue": 0,
                 "opacity": 255,
                 "blending": 0,

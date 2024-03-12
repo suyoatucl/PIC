@@ -7,7 +7,7 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
         "type": "vn.scene",
         "parentId": "0680E2763533F740B54A6C139E537CF59C20",
         "chapterUid": "0680E2763533F740B54A6C139E537CF59C20",
-        "order": 1,
+        "order": 2,
         "localizableStrings": {},
         "commands": [
             {
@@ -2124,7 +2124,9 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2199,7 +2201,9 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2274,7 +2278,9 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2349,7 +2355,9 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
@@ -2424,7 +2432,9 @@ GS.dataCache['E8023FF12DF3024AE35A80B7D3690BED05F3'] = {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "611C50B503B7324D026B38669E1A2D89103D",
-                    "parameters": {},
+                    "parameters": {
+                        "values": []
+                    },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }

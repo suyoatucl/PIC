@@ -234,7 +234,7 @@ GS.dataCache['2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E'] = {
                     "y": 0
                 }
             },
-            "gameTitle": "",
+            "gameTitle": "Pollution is Colonialism",
             "resolution": 720,
             "diagonalMovement": true,
             "menuCursorUpSound": {
@@ -292,7 +292,7 @@ GS.dataCache['2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E'] = {
             "resolutionType": 1,
             "startInfo": {
                 "scene": {
-                    "uid": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                    "uid": "96EB6CA99CCFF94DE04917C216F085E8E747",
                     "name": "Sample Scene"
                 }
             },
@@ -334,7 +334,7 @@ GS.dataCache['2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E'] = {
             "useIntroScene": true,
             "introInfo": {
                 "scene": {
-                    "uid": "788DF6BF5D09F548196B6529F41881A2BCE9",
+                    "uid": "96EB6CA99CCFF94DE04917C216F085E8E747",
                     "name": "Language Menu"
                 }
             },
@@ -394,7 +394,7 @@ GS.dataCache['2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E'] = {
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
                 }
             ],
-            "gameUid": "C0F8BB5E55225744092851E103CD85DF7B84",
+            "gameUid": "14F2B7F93038714EF45B1F58D7F6659C40D5",
             "textMacros": []
         },
         "id": "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E",
