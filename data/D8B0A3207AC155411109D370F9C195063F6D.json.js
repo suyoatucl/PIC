@@ -1,0 +1,1 @@
+GS.dataCache['D8B0A3207AC155411109D370F9C195063F6D'] = {"uid":"D8B0A3207AC155411109D370F9C195063F6D","isLoaded":true,"lastModificationTime":null,"items":{"type":"custom_strings_bundle","name":"Custom Texts","localizableStrings":{}},"summary":["name","type"]}
